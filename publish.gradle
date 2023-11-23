@@ -1,0 +1,15 @@
+ext {
+    PUBLISH_GROUP_ID = 'io.github.jinlee0'
+    PUBLISH_VERSION = '0.1.0'
+    PUBLISH_ARTIFACT_ID = 'rusult'
+    PUBLISH_DESCRIPTION = 'Rust-like result writtn in Kotlin'
+    PUBLISH_URL = 'https://github.com/jinlee0/rusult'
+    PUBLISH_LICENSE_NAME = 'MIT License'
+    PUBLISH_LICENSE_URL = 'http://www.opensource.org/licenses/mit-license.php'
+    PUBLISH_DEVELOPER_ID = 'jinlee0'
+    PUBLISH_DEVELOPER_NAME = 'Jin-Yong Lee'
+    PUBLISH_DEVELOPER_EMAIL = 'wls4370@gmail.com'
+    PUBLISH_SCM_CONNECTION = 'scm:git:github.com/jinlee0/rusult.git'
+    PUBLISH_SCM_DEVELOPER_CONNECTION = 'scm:git:ssh://github.com:jinlee0/rusult.git'
+    PUBLISH_SCM_URL = 'https://github.com/jinlee0/rusult/tree/main'
+}
