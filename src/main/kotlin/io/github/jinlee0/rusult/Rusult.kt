@@ -62,14 +62,12 @@ sealed interface Rusult<T, E> {
      * Converts `Rusult<T, E>` to `T?`
      * @return `T?` if the Rusult is Ok, and `null` if it is Err
      */
-
     fun ok(): T? = ok(this)
 
     /**
      * Convenrts `Rusult<T, E>` to `E?`
      * @return `E?` if the Rusult is Err, and `null` if it is Ok
      */
-
     fun err(): E? = err(this)
 
     /**

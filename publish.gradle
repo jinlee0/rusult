@@ -1,6 +1,6 @@
 ext {
     PUBLISH_GROUP_ID = 'io.github.jinlee0'
-    PUBLISH_VERSION = '0.1.0'
+    PUBLISH_VERSION = '0.1.1'
     PUBLISH_ARTIFACT_ID = 'rusult'
     PUBLISH_DESCRIPTION = 'Rust-like result writtn in Kotlin'
     PUBLISH_URL = 'https://github.com/jinlee0/rusult'

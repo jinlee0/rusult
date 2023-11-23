@@ -1,5 +1,11 @@
 import org.jetbrains.kotlin.gradle.plugin.mpp.pm20.util.archivesName
 
+buildscript {
+    dependencies {
+        classpath("io.github.gradle-nexus:publish-plugin:1.1.0")
+    }
+}
+
 plugins {
     id("org.jetbrains.kotlin.jvm") version "1.9.10"
     `java-library`
@@ -7,10 +13,16 @@ plugins {
 
 group = "io.github.jinlee0"
 archivesName = "rusult"
-version = "0.1.0"
+version = "0.1.1"
 
 repositories {
     mavenCentral()
+}
+
+apply {
+    plugin("io.github.gradle-nexus.publish-plugin")
+    from("$rootDir/scripts/publish-maven.gradle")
+    from("publish.gradle")
 }
 
 dependencies {
