@@ -1,6 +1,6 @@
-package com.github.jinlee0.rusult
+package io.github.jinlee0.rusult
 
-import com.github.jinlee0.rusult.Rusult.Companion.toRusult
+import io.github.jinlee0.rusult.Rusult.Companion.toRusult
 
 fun <T> withRusult(op: () -> T): Rusult<T, Unit> = runCatching(op).toRusult()
 

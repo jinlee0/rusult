@@ -1,4 +1,4 @@
-package com.github.jinlee0.rusult
+package io.github.jinlee0.rusult
 
 sealed interface Rusult<T, E> {
     /**

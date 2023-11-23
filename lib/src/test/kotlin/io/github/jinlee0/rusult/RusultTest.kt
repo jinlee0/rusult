@@ -1,13 +1,13 @@
-package com.github.jinlee0.rusult
+package io.github.jinlee0.rusult
 
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertThrows
 import org.junit.jupiter.api.Test
-import com.github.jinlee0.rusult.Rusult.Companion.cloned
-import com.github.jinlee0.rusult.Rusult.Companion.toRusult
-import com.github.jinlee0.rusult.Rusult.Err
-import com.github.jinlee0.rusult.Rusult.Ok
-import com.github.jinlee0.rusult.util.AssertionExt.assertEquals
+import io.github.jinlee0.rusult.Rusult.Companion.cloned
+import io.github.jinlee0.rusult.Rusult.Companion.toRusult
+import io.github.jinlee0.rusult.Rusult.Err
+import io.github.jinlee0.rusult.Rusult.Ok
+import io.github.jinlee0.rusult.util.AssertionExt.assertEquals
 import java.lang.Math.toIntExact
 import kotlin.math.pow
 

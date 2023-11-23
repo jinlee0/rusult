@@ -1,7 +1,7 @@
-package com.github.jinlee0.rusult.util
+package io.github.jinlee0.rusult.util
 
 import org.junit.jupiter.api.Assertions
-import com.github.jinlee0.rusult.Rusult
+import io.github.jinlee0.rusult.Rusult
 
 object AssertionExt {
     infix fun <T, E> Rusult<T, E>.assertEquals(other: Rusult<T, E>): Unit = Assertions.assertEquals(this, other)
